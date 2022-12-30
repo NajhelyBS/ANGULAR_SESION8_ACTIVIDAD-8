@@ -1,0 +1,36 @@
+
+
+<p>datos works!</p>
+
+<div>
+    <label for="">Nombre</label>
+    <input type="text" name="" #nombre>
+
+    <label for="">Apellidos</label>
+    <input type="text" name="" #apellidos>
+
+    <label for="">Edad</label>
+    <input type="number" name="" #edad>
+    
+    <button (click)="Registro(nombre.value, apellidos.value)">Agregar datos</button>
+
+</div>
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellidos</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Condicion</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let nombre of grupo1">
+                <td scope="col">{{nombre}}</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>

@@ -27,9 +27,21 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let nombre of grupo1">
-                <td scope="col">{{nombre}}</td>
-            </tr>
+              <tr>
+                <td>
+                    <tr *ngFor="let nombre of grupo1">
+                        <td>{{nombre}}</td>
+                    </tr>
+                </td>
+                <td>
+                    <tr *ngFor="let apellidos of grupo2">
+                        <td>{{apellidos}}</td>
+                    </tr>
+                </td>
+
+                <td>10</td>
+              </tr>
+            
         </tbody>
 
     </table>

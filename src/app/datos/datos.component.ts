@@ -8,10 +8,12 @@ import { Component } from '@angular/core';
 export class DatosComponent {
 
   grupo1 = ["  "];
+  grupo2 = ["  "];
  
 
   Registro(nombre:String,apellidos:String){
     this.grupo1.push(String(nombre));
+    this.grupo2.push(String(apellidos));
 
     alert(nombre);
     alert(apellidos);

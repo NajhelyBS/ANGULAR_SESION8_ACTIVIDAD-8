@@ -12,7 +12,7 @@
     <label for="">Edad</label>
     <input type="number" name="" #edad>
     
-    <button (click)="Registro(nombre.value, apellidos.value)">Agregar datos</button>
+    <button (click)="Registro(nombre.value, apellidos.value,edad.valueAsNumber)">Agregar datos</button>
 
 </div>
 
@@ -38,10 +38,11 @@
                         <td>{{apellidos}}</td>
                     </tr>
                 </td>
+                <td>
+                    <tr *ngFor="let edad of grupo3">
+                        <td>{{edad}}</td>
+                    </tr>
 
-                <td>10</td>
-              </tr>
-            
         </tbody>
 
     </table>

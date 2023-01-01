@@ -1,0 +1,71 @@
+h2 {
+    font-size: 34px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #a3744a;
+
+    text-shadow: 0px 3px 4px #f98720;
+}
+#datos{
+    border: ridge 4px #f98720;
+    border-radius: 20px;
+    box-shadow: #9c500e 0px 0px 6px 2px;
+    background-color: #faeccb;
+    background-image: radial-gradient(#ff971898 1.7000000000000002px, #faeccb9d 1.7000000000000002px);
+    background-size: 34px 34px;
+    
+}
+label {
+    font-weight: 600;
+    color: #693608;
+}
+input {
+    background-image: radial-gradient(circle, #ffb74b80, #feab3f86, #fc9f348c, #fb922a8e, #f9852086);
+    width: 13em;
+}
+input:hover {
+    background-color: #ffb74bbd;
+    box-shadow: inset 0px 0px 3px 2px rgba(243, 182, 50, 0.678);
+}
+
+
+button {
+    width: 13em;
+    background-image: radial-gradient(circle, #ffb84b, #feac3f, #fca034, #fb942a, #f98720);
+}
+button:hover {
+    box-shadow: #a3744a inset 0px 0px 14px 8px;
+}
+
+
+#tabla{
+    margin-left: 30px;
+    border: ridge 4px #f98720;
+    border-radius: 20px;
+    background-color: #faeccb;
+    background-image:  linear-gradient(30deg, #ff971883 12%, transparent 12.5%, transparent 87%, #ff97188f 87.5%, #ff9718ab), linear-gradient(150deg, #ff9718a1 12%, transparent 12.5%, transparent 87%, #ff971894 87.5%, #ff971891), linear-gradient(30deg, #ff97189c 12%, transparent 12.5%, transparent 87%, #ff9718a1 87.5%, #ff97188e), linear-gradient(150deg, #ff97189d 12%, transparent 12.5%, transparent 87%, #ff9718a4 87.5%, #ff97189a), linear-gradient(60deg, #ff981877 25%, transparent 25.5%, transparent 75%, #ff981877 75%, #ff981877), linear-gradient(60deg, #ff981877 25%, transparent 25.5%, transparent 75%, #ff981877 75%, #ff981877);
+    background-size: 18px 32px;
+    background-position: 0 0, 0 0, 9px 16px, 9px 16px, 0 0, 9px 16px;
+    box-shadow: #9c500e 0px 0px 6px 2px;
+
+}
+
+table {
+    border: ridge 2px #f98720;
+    background-color: white;
+    
+}
+
+.table-header {
+    background-image: radial-gradient(circle, #ffb84b, #feac3f, #fca034, #fb942a, #f98720);
+}
+
+#grupo {
+    border-right: ridge 2px #f98720;
+}
+
+td {
+    border: transparent;
+}
